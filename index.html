@@ -8,6 +8,9 @@
     <title>Yu-Gi-Oh Memory Game</title>
 </head>
 <body>
+    <audio autoplay loop>
+        <source src="/Yu-Gi-Oh.mp3" type="audio/mpeg" />
+    </audio>
     <section class="memory-game">
         <div class="memory-card" data-framework="Aurelia">
             <img class="front-face" src="https://i.postimg.cc/MGcWrK5P/blue-eyes-white-dragon.webp" alt="Aurelia">
@@ -57,8 +60,9 @@
             <img class="front-face" src="https://i.postimg.cc/Tw7KFYWp/pot-of-greed.webp" alt="angular">
             <img class="back-face" src="https://i.postimg.cc/KcJJHWtk/yu-gi-oh-card-backside.png" alt="Yu-gi-oh">
         </div>
-
     </section>
+
+    <button id="restart" onclick="location.reload()">RESTART</button>
     <script src="JS/script.js"></script>
 </body>
 </html>

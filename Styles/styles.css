@@ -53,6 +53,27 @@ body {
     backface-visibility: hidden;
 }
 
+#restart {
+    width: 80px;
+    height: 70px;
+    margin-top: 20%;
+    text-align: center;
+    border-radius: 80px;
+    color: white;
+    margin-right: 20px;
+    font-family: 'Lugrasimo', cursive;
+    font-size: 15px;
+    background-color: #CE6F06;
+    border: 3px solid #471201;
+    transition: all .2s ease-in-out;
+}
+
+#restart:hover {
+    box-shadow: 4px 4px 0px 0px black;
+    border-color: black;
+    transform: scale(1.1);
+}
+
 .front-face {
     transform: rotateY(180deg);
 }
